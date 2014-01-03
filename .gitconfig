@@ -1,6 +1,6 @@
 [user]
-    email = paul.l.kehrer@gmail.com
-    name = Paul Kehrer
+    email = jarret.raim@rackspace.com
+    name = Jarret Raim
 [apply]
 #   whitespace = fix
 [core]
@@ -46,6 +46,6 @@
     ci = commit
     pom = push origin master
 [gitreview]
-	username = reaperhulk
+	username = jraim
 [init]
-	templatedir = ~/.git_template
+    #templatedir = ~/.git_template
