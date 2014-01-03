@@ -47,7 +47,7 @@
     pom = push origin master
 [gitreview]
 	username = jraim
-[init]
-    #templatedir = ~/.git_template
+#[init]
+#    templatedir = ~/.git_template
 [push]
 	default = simple

@@ -14,6 +14,7 @@ alias mongo_run="mongod run --config /usr/local/Cellar/mongodb/2.0.4-x86_64/mong
 
 # List all files colorized in long format, including dot files
 alias la="ls -Gla"
+alias ll="ls -Gla"
 
 # List only directories
 alias lsd='ls -l | grep "^d"'
