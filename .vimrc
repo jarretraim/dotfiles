@@ -72,7 +72,7 @@ let g:syntastic_python_flake8_args='--ignore=E128'
 filetype plugin on      "you can then turn them back on after loading via vundle
 filetype plugin indent on
 
-colorscheme impact "cli color scheme
+"colorscheme impact "cli color scheme
 
 set scrolloff=5 "keep at least 5 lines above/below
 
