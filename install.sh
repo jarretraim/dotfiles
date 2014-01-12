@@ -34,4 +34,10 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
     ln -sf $CWD/.irbrc ~/.irbrc
     ln -sf $CWD/.rvmrc ~/.rvmrc
     source "$HOME/.bash_profile"
+
+    #install vundle if not there
+    if [ -d "~/.vim/bundle/vundle" ]; then
+        git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    fi
+
 fi
