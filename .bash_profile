@@ -23,8 +23,8 @@ complete -W "NSGlobalDomain" defaults
 complete -d cd rmdir
 
 #pyenv
-[[ -s $HOME/.pyenv/bin/pyenv ]] && export PATH="$HOME/.pyenv/bin:$PATH"
-[[ -s $HOME/.pyenv/bin/pyenv ]] && eval "$(pyenv init -)"
+[[ -s /usr/local/bin/pyenv ]] && export PATH="$HOME/.pyenv/bin:$PATH"
+[[ -s /usr/local/bin/pyenv ]] && eval "$(pyenv init -)"
 #add virtualenvwrapper if it's there
 [[ -s $HOME/.pyenv/plugins ]] && pyenv virtualenvwrapper_lazy
 
