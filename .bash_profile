@@ -36,4 +36,10 @@ fi
 # [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
 source ~/.git-completion.sh
+
+# boot2docker
+export DOCKER_HOST=tcp://127.0.0.1:4243
